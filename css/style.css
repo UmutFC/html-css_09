@@ -2,10 +2,14 @@
     --primary-color: #c72727 ;
     --secondary-color: #f99500;
     --light-color: #f3f3f3 ;
+    --cream-color: #eee;
     --dark-color: #333;
 
     --white-color: #fff;
     --gray-color: #777;
+
+    --light-gray: #444;
+    --light-gray-2: #555;
 
     --max-width: 1100px;
 }
@@ -132,7 +136,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .list li {
     padding: .5rem 0;
-    border-bottom: #555 dotted 1px;
+    border-bottom: var(--light-gray-2) dotted 1px;
     width: 90%;
 }
 
@@ -273,7 +277,7 @@ article .meta {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #eee;
+    background: var(--cream-color);
     padding: .5rem;
 }
 
@@ -302,7 +306,7 @@ article .meta .category {
 }
 
 #main-footer .footer-container > *:last-child {
-    background: #444;
+    background: var(--light-gray);
     grid-column: 1 / span 4;
     padding: .5rem;
     text-align: center;
